@@ -31,7 +31,7 @@ func main() {
 	}
 
 	//Task4, Task5
-	slice := make([]TableGame, 0)
+	slice := make([]TableGame, 0, 3)
 	slice = append(slice, object1)
 	slice = append(slice, TableGame{
 		Game: Game{
